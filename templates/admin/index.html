@@ -1,0 +1,16 @@
+{% include 'admin/cabecera.html' %}
+
+<div class="row align-items-md-stretch">
+    <div class="col-md-6">
+        <div
+            class="h-100 p-5 text-white bg-primary border rounded-3">
+            <h2>En proceso </h2>
+            <p></p>
+            <button class="btn btn-outline-primary" type="button">Aqui podra administrar los productos del sitio web</button>
+        </div>
+                 <a class="btn btn-primary btn-lg" href="libros" role="button">Productos mas populares</a>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+{% include 'admin/pie.html' %}
